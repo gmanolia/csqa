@@ -10,8 +10,8 @@ python ../task.py\
  --trial_file_name ../csqa_data/conceptnet/weight_rel/test_data.json\
  --pred_file_name  ../data/task_result.json\
  --output_model_dir ../data/conceptnet/weight_rel\
- --bert_model_dir albert-xxlarge-v2\
- --bert_vocab_dir albert-xxlarge-v2\
+ --bert_model_dir albert-base-v2\
+ --bert_vocab_dir albert-base-v2\
  --print_step 100\
  --mission train
  
